@@ -1,0 +1,23 @@
+{
+  "name": "mathtoolkit",
+  "version": "1.0.0",
+  "description": "A mathematical toolkit in Node.js written in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "math",
+    "toolkit",
+    "typescript",
+    "algorithms"
+  ],
+  "author": "Luca Daniel Ionescu",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "typescript": "^5.8.3"
+  }
+}
